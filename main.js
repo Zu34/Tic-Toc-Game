@@ -188,9 +188,9 @@ function handleRoundEnd(result) {
   if (result === "X" || result === "O") {
     score[result]++;
     if (score[result] === 3) {
-      showFlashMessage(`${result} scored a point the match! 🎉`);
+      showFlashMessage(`${result} hits a point the match!✅👁️`);
     } else {
-      showFlashMessage(`${result} wins this round! 🎉`);
+      showFlashMessage(`${result} hits point this match! ✅👁️`);
     }
   } else if (result === "draw") {
     showFlashMessage("It's a draw! 🤝");
